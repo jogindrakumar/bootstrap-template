@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.button__collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.navigation__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__section {
+    margin-top: 10%;
+}
+
+.hero__section .img img {
+    height: 350px;
+    width: 350px;
+}
+
+.project__slider {
+    margin-top: 10%;
+}
+
+.skill__section {
+    margin-top: 10px;
+}
+
+.skill__section .tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill__section .tech-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.skill__section .tech-circle i {
+    margin-top: 15px;
+}
+
+.skill__section .tech-name {
+    font-size: 2rem;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+}
